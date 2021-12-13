@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC723EF62767C54F00C31E52 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC723EF52767C54F00C31E52 /* Ingredient.swift */; };
 		ACB63F4C2746B26400C040DC /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB63F4B2746B26400C040DC /* RecipeDetailView.swift */; };
 		ACDFE9792742E9C7007A95FA /* RecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFE9782742E9C7007A95FA /* RecipesApp.swift */; };
 		ACDFE97B2742E9C7007A95FA /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDFE97A2742E9C7007A95FA /* RecipeListView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC723EF52767C54F00C31E52 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		ACB63F4B2746B26400C040DC /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		ACDFE9752742E9C7007A95FA /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDFE9782742E9C7007A95FA /* RecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesApp.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				ACDFE99B2742EDCC007A95FA /* Recipe.swift */,
+				AC723EF52767C54F00C31E52 /* Ingredient.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				ACB63F4C2746B26400C040DC /* RecipeDetailView.swift in Sources */,
 				ACDFE99C2742EDCC007A95FA /* Recipe.swift in Sources */,
 				ACDFE97B2742E9C7007A95FA /* RecipeListView.swift in Sources */,
+				AC723EF62767C54F00C31E52 /* Ingredient.swift in Sources */,
 				ACDFE9792742E9C7007A95FA /* RecipesApp.swift in Sources */,
 				ACDFE9A02742F5D8007A95FA /* DataService.swift in Sources */,
 				ACF61FBC274BFE4300F4CBB0 /* RecipeTabView.swift in Sources */,
@@ -333,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Recipes/Preview Content\"";
+				DEVELOPMENT_TEAM = LJJVVQQD7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -361,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Recipes/Preview Content\"";
+				DEVELOPMENT_TEAM = LJJVVQQD7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

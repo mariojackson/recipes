@@ -37,6 +37,10 @@ class DataService {
             
             for recipe in recipes {
                 recipe.id = UUID()
+                
+                for ingredient in recipe.ingredients {
+                    ingredient.id = UUID()
+                }
             }
             
         } catch {
